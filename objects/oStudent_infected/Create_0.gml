@@ -3,5 +3,5 @@
 event_inherited();
 
 //Set target
-event_user(0);
+alarm[1] = 2;
 

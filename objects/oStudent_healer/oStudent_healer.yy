@@ -5,12 +5,22 @@
     "name": "oStudent_healer",
     "eventList": [
         {
-            "id": "04996d6a-0035-48c2-bc61-3838382bac40",
+            "id": "3ff59ef3-a4ab-4d1f-81bb-5192943b8ed5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "f5637590-ad57-414a-b993-c61f877f9836"
+        },
+        {
+            "id": "3114b96c-ca74-4446-b35e-f3c43a356df9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
             "eventtype": 2,
             "m_owner": "f5637590-ad57-414a-b993-c61f877f9836"
         }

@@ -6,11 +6,10 @@ xspeed = 0;
 yspeed = 0;
 
 move = true;
-selectable = true;
-is_infected = false;
+is_targeted = false;
 
 target = false; // oStudent or false
-conversation = false; //oBubble or false
+conversation = false; //oConversation or false
 
 // Start random movement on create
 alarm[0] = 1;

@@ -1,9 +1,9 @@
 
 //Change movement if outside the limits of room
 
-if (x <= global.room_border || x >= room_width - global.room_border - xspeed) {
-	alarm[0] = 1;
+if (place_meeting(x + xspeed, y, oWall)) {
+	xspeed = -xspeed;
 }
-else if (y <= global.room_border || y >= room_height - global.room_border - yspeed) {
-	alarm[0] = 1;
+if (place_meeting(x, y + yspeed, oWall)) {
+	yspeed = -yspeed;
 }

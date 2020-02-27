@@ -1,9 +1,14 @@
 /// @description Start Game
 
 // randomize();
+random_set_seed(1);
 
 // Set room limits
-global.room_border = 64;
+global.room_border = 128;
+
+// Healer variables
+global.healer_spawn_start = 10;
+global.healer_spawned = false;
 
 
 // Student types
