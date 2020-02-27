@@ -8,7 +8,7 @@ if (target != false) {
 		//Reset directionnal movement
 		move_towards_point(x,y,0);
 	
-		x = target.x + sprite_width/2;
+		x = target.x + sprite_width;
 		y = target.y;
 		
 		// Stop this and target
@@ -16,8 +16,8 @@ if (target != false) {
 		move = false;
 	
 		// Create conversation
-		var conversationX = x - sprite_width/4;
-		var conversationY = y - sprite_height/1.5;
+		var conversationX = x;
+		var conversationY = y - sprite_height/2;
 	
 		conversation = instance_create_layer(conversationX, conversationY, "Conversations", oConversation)
 	
@@ -28,7 +28,7 @@ if (target != false) {
 
 	//If target is not selectable on collision and conversation has not started
 	//Set new target
-	else if ( place_meeting(x,y,target) && !conversation ) {
+	else if ( place_meeting(x,y,target) && target.conversation && !conversation ) {
 	
 		//Reset directionnal movement
 		move_towards_point(x,y,0);
@@ -73,4 +73,10 @@ else if (move) {
 	
 	x = x + xspeed;
 	y = y + yspeed;
+	
+	image_alpha = 1;
+}
+
+if (!move) {
+	image_alpha = .5;
 }

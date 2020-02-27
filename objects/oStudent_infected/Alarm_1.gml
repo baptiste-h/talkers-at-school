@@ -2,9 +2,9 @@
 
 
 // Spawn healer if 10 infected students or more
-if (ds_list_size(global.students_sane) >= global.healer_spawn_start && !global.healer_spawned) {
+if (ds_list_size(global.students_infected) >= global.healer_spawn_start && global.healer == false) {
 	global.healer_spawned = true;
-	//event_user(0);
+	event_user(0);
 }
 
 
@@ -42,7 +42,7 @@ if (ds_list_size(global.students_sane) > 0) {
 }
 
 // If no target, retry to find one later
-if (target == false) {
+if (!target) {
 	
 	alarm[1] = 128;
 }

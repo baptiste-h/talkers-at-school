@@ -7,8 +7,8 @@ random_set_seed(1);
 global.room_border = 128;
 
 // Healer variables
-global.healer_spawn_start = 10;
-global.healer_spawned = false;
+global.healer = false;
+global.healer_spawn_start = 2; 
 
 
 // Student types

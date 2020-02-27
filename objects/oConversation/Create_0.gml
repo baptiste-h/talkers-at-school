@@ -9,8 +9,8 @@
 state = 0;
 
 //State cooldowns
-preparation_cooldown = 10;
-action_cooldown = 64;
-disable_cooldown = 128;
-valid_cooldown = 64;
-healing_cooldown = 64;
+preparation_cooldown = 10 /10;
+action_cooldown = 64 /10;
+disable_cooldown = 128 /10;
+valid_cooldown = 64 /10;
+healing_cooldown = 64 /10;

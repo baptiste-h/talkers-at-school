@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "1469e392-23b5-4a91-918b-b237f83dd245",
+            "Value": {
+                "id": "b447d8ed-4fc1-4d8e-a242-762a2bfa49a2",
+                "resourcePath": "sprites\/sCPE_right\/sCPE_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19660157-dfb2-410f-83a2-c39d036ec84f",
+            "Value": {
+                "id": "03cee805-d2ce-4bcd-a708-63330f3a01dd",
+                "resourcePath": "sprites\/sPOPU_sane_right\/sPOPU_sane_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1989c9a1-2c83-4b11-a330-9642cc951951",
             "Value": {
                 "id": "26c479d5-6c2a-42a7-9e8e-ccd9c3c3a0fb",
@@ -55,10 +71,10 @@
             }
         },
         {
-            "Key": "288e5367-83fd-40e1-a539-421fb9fa3a32",
+            "Key": "20c1fe43-2b83-4025-ad37-7bd8e82a5295",
             "Value": {
-                "id": "a9eea838-b819-4e5d-a0fd-95680a7eba80",
-                "resourcePath": "sprites\/sStudent_healer\/sStudent_healer.yy",
+                "id": "bf4b1249-c125-4ced-9fde-582b4a6ffd8b",
+                "resourcePath": "sprites\/sPROF_right\/sPROF_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -103,6 +119,22 @@
             }
         },
         {
+            "Key": "496e09ac-3016-4de0-aea1-d4bcac68e788",
+            "Value": {
+                "id": "bd657edb-a1d4-41a7-af8c-c8ad992aa1fd",
+                "resourcePath": "sprites\/sStudent_sane_right\/sStudent_sane_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59f43066-22b8-40b1-bf43-a3633e253950",
+            "Value": {
+                "id": "7e2c82ee-0396-44eb-963c-117b8dcf40c0",
+                "resourcePath": "sprites\/sStudent_infected_right\/sStudent_infected_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e8d9263-cc21-4a91-a21a-7b16a0f21a67",
             "Value": {
                 "id": "344169f1-768e-4a80-b5b6-8c6e91d9a5a0",
@@ -116,6 +148,14 @@
                 "id": "9922b026-9e8f-4487-9cb9-ef805a81232f",
                 "resourcePath": "views\/6019e5ef-d290-4848-9111-7e6adc39af6a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a646b20-ab8a-415f-b211-0ed5b8bbddcf",
+            "Value": {
+                "id": "24c02d31-2419-44dd-bf8a-c61582e88fd8",
+                "resourcePath": "sprites\/sDIRECTEUR_right\/sDIRECTEUR_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -135,11 +175,59 @@
             }
         },
         {
+            "Key": "7db36194-ce2d-4204-a364-8fa1993f8c10",
+            "Value": {
+                "id": "98047d31-bb91-4fbc-80be-9bc473763c05",
+                "resourcePath": "views\/7db36194-ce2d-4204-a364-8fa1993f8c10.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7fa03102-ceb9-4b94-85a3-bf1bb92e73a1",
             "Value": {
                 "id": "86452f1d-184e-4606-bedc-62f79a6e6681",
                 "resourcePath": "views\/7fa03102-ceb9-4b94-85a3-bf1bb92e73a1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "875e44d6-9397-4a69-bbb4-1a7b50dda4bf",
+            "Value": {
+                "id": "d0c34e45-893e-4c41-8483-14d1e31d8c98",
+                "resourcePath": "views\/875e44d6-9397-4a69-bbb4-1a7b50dda4bf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8792ac18-3025-4614-b9dd-7294777fa568",
+            "Value": {
+                "id": "c05c8e30-8612-4861-af29-004e2dca0b51",
+                "resourcePath": "sprites\/sPOPU_infected_right\/sPOPU_infected_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "902bc199-8924-40a6-86de-6b2931bc5cdc",
+            "Value": {
+                "id": "1e1b8490-7a1c-426f-877f-b27f41c5c77f",
+                "resourcePath": "sprites\/sGEEK_sane_right\/sGEEK_sane_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9504d14b-d0f0-40f0-970f-05dcdbbf8f92",
+            "Value": {
+                "id": "1037f105-c598-40e8-be8c-482512b0ab88",
+                "resourcePath": "sprites\/sGEEK_infected_right\/sGEEK_infected_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "99578ce3-fe41-40ea-857e-d27ad77cf25f",
+            "Value": {
+                "id": "b6c70830-2383-4e57-a4d8-ae2c91769b2e",
+                "resourcePath": "sprites\/sDELEGUE_right\/sDELEGUE_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,14 +295,6 @@
             }
         },
         {
-            "Key": "ce7602c5-536d-496c-a117-c7d1fa40dce1",
-            "Value": {
-                "id": "57c69fad-db2d-435f-8b4a-969fbaac5b54",
-                "resourcePath": "sprites\/sStudent_infected\/sStudent_infected.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d74e81c5-aaca-403a-88e3-456a60b5eece",
             "Value": {
                 "id": "30e771b8-5855-4cce-b9b4-06783ac12e80",
@@ -227,6 +307,14 @@
             "Value": {
                 "id": "88ee5479-93a6-4971-8caf-27225e0a7aa0",
                 "resourcePath": "views\/d786b35c-cc41-4286-956c-5fab79fb2db1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "def2210e-9b30-4d46-ab7c-03db1e55c7ed",
+            "Value": {
+                "id": "11abac40-06c7-4cd3-b106-28cc9149da3b",
+                "resourcePath": "views\/def2210e-9b30-4d46-ab7c-03db1e55c7ed.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -276,14 +364,6 @@
                 "id": "c12fcf8b-4fec-43e6-b67f-765d2c4e7fa1",
                 "resourcePath": "views\/fbb0f197-0bfb-48ef-b03c-c297da018577.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fd665e2b-7cbb-440c-bb88-d725d2e05b23",
-            "Value": {
-                "id": "8157d435-5be8-4a8c-95ca-3f76e7f44b50",
-                "resourcePath": "sprites\/sStudent\/sStudent.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
