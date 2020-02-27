@@ -9,7 +9,7 @@
         "f5637590-ad57-414a-b993-c61f877f9836"
     ],
     "filterType": "GMObject",
-    "folderName": "oStudent",
+    "folderName": "old_oStudent",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
