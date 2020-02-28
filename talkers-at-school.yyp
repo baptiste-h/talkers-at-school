@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "161620c3-b01e-4fe4-9088-6d7171970f97",
-            "Value": {
-                "id": "5f0e9cf2-6251-46ea-b4c7-66d31cd141a1",
-                "resourcePath": "objects\/oChat\/oChat.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "19660157-dfb2-410f-83a2-c39d036ec84f",
             "Value": {
                 "id": "03cee805-d2ce-4bcd-a708-63330f3a01dd",
@@ -244,6 +236,14 @@
                 "id": "576cae0e-13e9-43c9-aae5-bf638ed74c0d",
                 "resourcePath": "views\/404fe1bb-7d55-4d3b-b84f-18ad334c7956.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "41013793-eb7b-4c2e-bc8a-3395207be004",
+            "Value": {
+                "id": "c6e72326-725e-47c7-a4ef-a2c4df9cb1bc",
+                "resourcePath": "objects\/oConversation\/oConversation.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -524,6 +524,14 @@
                 "id": "44cd4e16-f409-4510-bd09-f3f14a649447",
                 "resourcePath": "views\/abd3fa96-297c-4334-8445-bc62e986b8cf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b2703b21-8132-4268-a72f-9e9fc6d5d9f5",
+            "Value": {
+                "id": "373fca57-edbe-4ed2-a6cb-8a4cd500bac7",
+                "resourcePath": "sprites\/sfont_jasontomlee\/sfont_jasontomlee.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
